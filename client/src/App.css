@@ -1,0 +1,152 @@
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  color: rgb(66, 66, 66);
+  display: flex;
+  
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.close-btn {
+  background-color: transparent;
+  color: rgb(71, 71, 71);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: rgb(75, 75, 75);
+  position: fixed;
+  top: 60px;
+  left: -200px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar h3 {
+  padding: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-btn {
+  background-color: transparent;
+  color: rgb(74, 74, 74);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  width: 50px;
+  margin-left: 10px
+}
+
+.sidebar-header button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 50px;
+}
+
+
+.sidebar .list-group-item {
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.sidebar .list-group-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.tablee{
+  width: 88%;
+  margin-right: -11%;
+}
+
+.container{
+  display: flex;
+}

@@ -1,0 +1,54 @@
+
+
+.container3{
+  position: absolute;
+  display: flex;
+   left: 18%;
+   width: 80%;
+   height: 20%;
+   color: black;
+   top: 30%;
+   
+}
+
+
+
+
+
+
+
+.empty-slot {
+  background-color: #f0f0f0; 
+  border-color: #ccc; 
+
+
+  
+}
+
+.fc th {
+  background: #333;
+  color: white;
+}
+
+.fc td{
+  cursor: pointer;
+
+}
+
+.fc-event{
+  border-radius: 4%;
+}
+
+.fc-resource-area .fc-resource:nth-child(1) .fc-event {
+  background-color: #ff8080;
+}
+
+.fc-resource-area .fc-resource:nth-child(2) .fc-event {
+  background-color: #80b3ff;
+}
+
+.fc-resource-area .fc-resource:nth-child(3) .fc-event {
+  background-color: #b3ffb3;
+}
+
+
